@@ -13,7 +13,6 @@ class User extends React.Component {
         .then(response => response.json())
         .then(
             user => {
-                functions!!!
                 this.setState({
                     user: user
                 });
