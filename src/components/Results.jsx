@@ -35,11 +35,7 @@ class Results extends React.Component {
         if (!this.props.username) {
             return (<div className="user-page">LOADING...</div>);
         } 
-        /* 
-        if(this.state.user.length===0){
-            return (<div className="user-page">LOADING...</div>);
-        }
-        */
+
         return (
         <div>
             <KendoListView events={{ //name of event, and callback 

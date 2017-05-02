@@ -68,7 +68,7 @@ class Search extends React.Component {
         if(this.state.page==1){
          return;
         }
-                this.refs.userInput.value = this.state.userTemp
+        this.refs.userInput.value = this.state.userTemp
         this.setState({
             user: []
         });
